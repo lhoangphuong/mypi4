@@ -8,3 +8,5 @@ sudo curl -fsSL -o "/boot/config.txt" "https://raw.githubusercontent.com/lhoangp
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 rm get-docker.sh
+sudo usermod -aG docker $USER
+newgrp docker
