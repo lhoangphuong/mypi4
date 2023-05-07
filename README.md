@@ -16,7 +16,7 @@ curl -fsSL https://raw.githubusercontent.com/lhoangphuong/mypi4/main/script/setu
 ## Usage
 
 1. Updating and Upgrading Raspberry Pi OS
-2. 
+2. Fix Slow VNC response in certain applications [Here](https://forums.raspberrypi.com/viewtopic.php?t=327772&sid=cf26e14e767cfc7c8676903504ea88f3).
 
 ## Contributing
 
