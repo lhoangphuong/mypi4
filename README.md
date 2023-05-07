@@ -10,7 +10,7 @@ This repository contains the necessary files and instructions to bootstrap a Ras
 ## Installation
 Run the script
 ```bash
-
+curl -fsSL https://raw.githubusercontent.com/lhoangphuong/mypi4/main/script/setup.sh | bash
 ```
 
 ## Usage
