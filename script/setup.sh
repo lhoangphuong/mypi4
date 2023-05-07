@@ -10,3 +10,5 @@ sudo sh get-docker.sh
 rm get-docker.sh
 sudo usermod -aG docker $USER
 newgrp docker
+
+sudo apt install cockpit
