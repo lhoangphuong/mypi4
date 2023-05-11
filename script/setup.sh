@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo apt update
-sudo apt full-upgrade
+sudo apt update -y
+sudo apt full-upgrade -y
 sudo apt install cmake -y
 sudo apt install unattended-upgrades -y
 echo 'APT::Periodic::Update-Package-Lists "1";' | sudo tee /etc/apt/apt.conf.d/20auto-upgrades > /dev/null
